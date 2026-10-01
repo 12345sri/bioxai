@@ -6,7 +6,7 @@ import streamlit as st
 
 # ---- Edit these to your own details -------------------------------------
 CONCEPTS_AND_RESEARCH_BY = "Tanjidul Huda & Sriporna Biswas"
-CONTACT = "tanjidulhuda@email.com | sripornab13@email.com"
+CONTACT = "tanjidulhuda@email.com . sripornab13@email.com"
 GITHUB_URL = "https://github.com/12345sri/bioxai"
 # -------------------------------------------------------------------------
 
@@ -77,7 +77,7 @@ with st.expander("Who made this and what it is based on"):
         f"""
         **Concepts & research by {CONCEPTS_AND_RESEARCH_BY}**
 
-        [Source code]({GITHUB_URL}) · Contract: {CONTACT}
+        [Source code]({GITHUB_URL}) · Contact: {CONTACT}
 
         The genomics tool implements the framework from **Biswas S., Huda T., Pal H., Gupta V. K. et al.**, 
         *Interpretable Machine Learning Framework for Gene Regulatory Network and Pathway Analysis in Breast Cancer*
