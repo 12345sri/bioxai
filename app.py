@@ -72,21 +72,21 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-st.write("")
 with st.expander("Who made this and what it is based on"):
     st.markdown(
         f"""
-Concepts & research by **{CONCEPTS_AND_RESEARCH_BY}** · [Source code]({GITHUB_URL}) · {CONTACT}
-"""
-The genomics tool implements the framework from *Biswas S., Huda T., Pal H., Gupta V.K.,
-"Interpretable Machine Learning Framework for Gene Regulatory Network and Pathway Analysis in
-Breast Cancer"* (TCGA data via UCSC Xena; Logistic Regression, SVM, Random Forest, XGBoost; SHAP;
-correlation networks; KEGG enrichment).
+        **Concepts & research by {CONCEPTS_AND_RESEARCH_BY}**
 
-The HRV tool is based on *Huda T., "Heart Rate Changes as an Indicator of Academic Stress in
-College Students"*, B.Sc. (H) Biomedical Science dissertation, Bhaskaracharya College of Applied
-Sciences, University of Delhi (2026), which recorded ECG with BIOPAC MP36 and analysed HRV in Kubios.
-The app reproduces those HRV measures in open-source Python and adds the exam-day comparison the
-study set out to make.
+        [Source code]({GITHUB_URL}) · {CONTACT}
+
+        The genomics tool implements the framework from **Biswas S., Huda T., Pal H., Gupta V. K. et al.**, 
+        *Interpretable Machine Learning Framework for Gene Regulatory Network and Pathway Analysis in Breast Cancer*
+        (TCGA data via UCSC Xena; Logistic Regression, SVM, Random Forest, XGBoost; SHAP; correlation networks; KEGG enrichment).
+
+        The HRV tool is based on **Huda T.**, *Heart Rate Changes as an Indicator of Academic Stress in College Students*,
+        B.Sc. (H) Biomedical Science dissertation, Bhaskaracharya College of Applied Sciences, University of Delhi (2026),
+        which recorded ECG with BIOPAC MP36 and analysed HRV in Kubios.
+
+        The app reproduces those HRV measures in open-source Python and supports the exam-day comparison described in the study.
         """
     )
