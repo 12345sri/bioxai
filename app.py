@@ -6,7 +6,7 @@ import streamlit as st
 
 # ---- Edit these to your own details -------------------------------------
 CONCEPTS_AND_RESEARCH_BY = "Tanjidul Huda & Sriporna Biswas"
-CONTACT = "Tanjidul Huda: tanjidulhuda@email.com | Sriporna Biswas: sripornab13@email.com"
+CONTACT = "tanjidulhuda@email.com | sripornab13@email.com"
 GITHUB_URL = "https://github.com/12345sri/bioxai"
 # -------------------------------------------------------------------------
 
