@@ -9,7 +9,7 @@ biomedical data, and shows **why** each result was reached:
   smartwatches), Kubios-style charts, an explainable stress index, and a normal day vs exam day comparison.
 - **Learn**: plain-language guides on breast cancer, screening, stress, HRV and explainable AI.
 
-**Live app:** [https://<your-app>.streamlit.app](https://bioxai-research-lab.streamlit.app) · **Demo video:** `<link>`
+**Live app:** [https://<your-app>.streamlit.app](https://bioxai-research-lab.streamlit.app) 
 
 > For research and education only. BioXAI is not a medical device and does not diagnose disease.
 
@@ -170,9 +170,9 @@ bioxai/
 If you use BioXAI, please cite the two source works above and this repository.
 
 ## Author
-
-Tanjidul Huda · Department of Biomedical Science, Bhaskaracharya College of Applied Sciences,
-University of Delhi · `<email>` · `<LinkedIn>`
+Sriporna Biswas · Department of Computer Science & Engineering , Chandigarh University · `sripornab13@gmail.com`
+Tanjidul Huda · Department of Biomedical Science, Bhaskaracharya College of Applied Sciences, 
+University of Delhi · `tanjidulhuda@gmail.com` 
 
 ## License
 
