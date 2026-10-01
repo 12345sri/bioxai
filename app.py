@@ -76,8 +76,9 @@ st.write("")
 with st.expander("Who made this and what it is based on"):
     st.markdown(
         f"""
-Built by **{BUILT_BY}** · [Source code]({GITHUB_URL}) · {CONTACT}
-
+ui = f"""
+Concepts & research by **{CONCEPTS_AND_RESEARCH_BY}** · [Source code]({GITHUB_URL}) · {CONTACT}
+"""
 The genomics tool implements the framework from *Biswas S., Huda T., Pal H., Gupta V.K.,
 "Interpretable Machine Learning Framework for Gene Regulatory Network and Pathway Analysis in
 Breast Cancer"* (TCGA data via UCSC Xena; Logistic Regression, SVM, Random Forest, XGBoost; SHAP;
