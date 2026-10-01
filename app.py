@@ -76,7 +76,6 @@ st.write("")
 with st.expander("Who made this and what it is based on"):
     st.markdown(
         f"""
-ui = f"""
 Concepts & research by **{CONCEPTS_AND_RESEARCH_BY}** · [Source code]({GITHUB_URL}) · {CONTACT}
 """
 The genomics tool implements the framework from *Biswas S., Huda T., Pal H., Gupta V.K.,
