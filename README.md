@@ -171,8 +171,6 @@ If you use BioXAI, please cite the two source works above and this repository.
 
 ## Author
 Sriporna Biswas · Department of Computer Science & Engineering , Chandigarh University · `sripornab13@gmail.com`
-Tanjidul Huda · Department of Biomedical Science, Bhaskaracharya College of Applied Sciences, 
-University of Delhi · `tanjidulhuda@gmail.com` 
 
 ## License
 
