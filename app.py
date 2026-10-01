@@ -5,9 +5,9 @@ Run locally:  streamlit run app.py
 import streamlit as st
 
 # ---- Edit these to your own details -------------------------------------
-BUILT_BY = "Tanjidul Huda"
-CONTACT = "your.email@example.com"
-GITHUB_URL = "https://github.com/your-username/bioxai"
+CONCEPTS_AND_RESEARCH_BY = "Tanjidul Huda & Sriporna Biswas"
+CONTACT = "Tanjidul Huda: tanjidulhuda@email.com | Sriporna Biswas: sripornab13@email.com"
+GITHUB_URL = "https://github.com/12345sri/bioxai"
 # -------------------------------------------------------------------------
 
 st.set_page_config(page_title="BioXAI", page_icon="🧬", layout="wide")
