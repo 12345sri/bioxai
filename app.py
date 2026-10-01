@@ -77,7 +77,7 @@ with st.expander("Who made this and what it is based on"):
         f"""
         **Concepts & research by {CONCEPTS_AND_RESEARCH_BY}**
 
-        [Source code]({GITHUB_URL}) · {CONTACT}
+        [Source code]({GITHUB_URL}) · Contract: {CONTACT}
 
         The genomics tool implements the framework from **Biswas S., Huda T., Pal H., Gupta V. K. et al.**, 
         *Interpretable Machine Learning Framework for Gene Regulatory Network and Pathway Analysis in Breast Cancer*
