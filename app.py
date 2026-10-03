@@ -74,8 +74,8 @@ st.markdown(
 )
 
 with st.expander("Who made this and what it is based on"):
-    with st.expander("Who made this and what it is based on"):
-    st.markdown(f"""
+    st.markdown(
+        f"""
 **Concepts & research by {CONCEPTS_AND_RESEARCH_BY}**
 
 [Source code]({GITHUB_URL}) · Contact: {CONTACT}
@@ -89,7 +89,8 @@ B.Sc. (H) Biomedical Science dissertation, Bhaskaracharya College of Applied Sci
 which recorded ECG with BIOPAC MP36 and analysed HRV in Kubios.
 
 The app reproduces those HRV measures in open-source Python and supports the exam-day comparison described in the study.
-""", unsafe_allow_html=True)
+"""
+    )
 
 st.markdown("---")
 
