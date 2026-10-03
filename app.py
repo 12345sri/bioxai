@@ -74,23 +74,24 @@ st.markdown(
 )
 
 with st.expander("Who made this and what it is based on"):
-    st.markdown(
-        f"""
-        **Concepts & research by {CONCEPTS_AND_RESEARCH_BY}**
+    with st.expander("Who made this and what it is based on"):
+    st.markdown(f"""
+**Concepts & research by {CONCEPTS_AND_RESEARCH_BY}**
 
-        [Source code]({GITHUB_URL}) · Contact: {CONTACT}
+[Source code]({GITHUB_URL}) · Contact: {CONTACT}
 
-        The genomics tool implements the framework from **Biswas S., Huda T., Pal H., Gupta V. K. et al.**, 
-        *Interpretable Machine Learning Framework for Gene Regulatory Network and Pathway Analysis in Breast Cancer*
-        (TCGA data via UCSC Xena; Logistic Regression, SVM, Random Forest, XGBoost; SHAP; correlation networks; KEGG enrichment).
+The genomics tool implements the framework from **Biswas S., Huda T., Pal H., Gupta V. K. et al.**
+*Interpretable Machine Learning Framework for Gene Regulatory Network and Pathway Analysis in Breast Cancer*
+(TCGA data via UCSC Xena; Logistic Regression, SVM, Random Forest, XGBoost; SHAP; correlation networks; KEGG enrichment).
 
-        The HRV tool is based on **Huda T.**, *Heart Rate Changes as an Indicator of Academic Stress in College Students*,
-        B.Sc. (H) Biomedical Science dissertation, Bhaskaracharya College of Applied Sciences, University of Delhi (2026),
-        which recorded ECG with BIOPAC MP36 and analysed HRV in Kubios.
+The HRV tool is based on **Huda T.**, *Heart Rate Changes as an Indicator of Academic Stress in College Students*,
+B.Sc. (H) Biomedical Science dissertation, Bhaskaracharya College of Applied Sciences, University of Delhi (2026),
+which recorded ECG with BIOPAC MP36 and analysed HRV in Kubios.
 
-        The app reproduces those HRV measures in open-source Python and supports the exam-day comparison described in the study.
-        """
-        st.markdown("---")
+The app reproduces those HRV measures in open-source Python and supports the exam-day comparison described in the study.
+""", unsafe_allow_html=True)
+
+st.markdown("---")
 
 st.subheader("Help us improve BioXAI")
 st.write("Share your experience, rating, and suggestions.")
