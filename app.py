@@ -8,6 +8,7 @@ import streamlit as st
 CONCEPTS_AND_RESEARCH_BY = "Tanjidul Huda & Sriporna Biswas"
 CONTACT = "tanjidulhuda@email.com | sripornab13@email.com"
 GITHUB_URL = "https://github.com/12345sri/bioxai"
+FEEDBACK_URL = "https://docs.google.com/forms/d/e/1FAIpQLSc676MCjsh_Wm4wsQsOp4mYhtFofCM3aWOchsFxfNC1XVqt3A/viewform"
 # -------------------------------------------------------------------------
 
 st.set_page_config(page_title="BioXAI", page_icon="🧬", layout="wide")
@@ -89,4 +90,10 @@ with st.expander("Who made this and what it is based on"):
 
         The app reproduces those HRV measures in open-source Python and supports the exam-day comparison described in the study.
         """
+        st.markdown("---")
+
+st.subheader("Help us improve BioXAI")
+st.write("Share your experience, rating, and suggestions.")
+
+st.link_button("Give Feedback", FEEDBACK_URL)
     )
